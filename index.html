@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=
+	, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="wattscript_gui.css"/>
+	<script src="wattscript_gui.js"></script>
+</head>
+<body>
+	
+<div id="registration-form">
+	<div class='fieldset'>
+    <legend>Watt History Download</legend>
+		<form action="baixar.php" method="GET" data-validate="parsley">
+			<div class='row'>
+				<label>Url da história</label>
+				<input type="text" placeholder="First Name" name='url' id='url' data-required="true" data-error-message="Your First Name is required">
+			</div>
+			<div class='row'>
+				<label for="text">Titulo</label>
+				<input type="text" placeholder="E-mail"  name='title' data-required="true" data-type="email" data-error-message="Your E-mail is required">
+			</div>
+			<input type="submit" value="Baixar">
+		</form>
+	</div>
+</div>
+
+</body>
+
+
+</html>
